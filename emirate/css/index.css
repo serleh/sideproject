@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a, li{
+    text-decoration: none;
+    list-style-type: none;
+    color:white
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #16213E;
+    color: white;
+    padding: 20px;
+}
+
+.nav-links li{
+    display: inline-block;
+   padding: 10px;
+}
+
+.top-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.top-section div{
+    text-align: center;
+   
+}
+
+.top-section div a{
+  color:black;;
+}
